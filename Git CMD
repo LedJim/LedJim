@@ -1,0 +1,42 @@
+echo "# LedJim" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LedJim/LedJim.git
+git push -u origin main
+-----------------------------------------------------------
+Git CMD
+-----------------------------------------------------------
+C:\Users\raul.rojas>echo "# LedJim" >> README.md
+
+C:\Users\raul.rojas>git init
+Initialized empty Git repository in C:/Users/raul.rojas/.git/
+
+C:\Users\raul.rojas>git add README.md
+
+C:\Users\raul.rojas>git commit -m "first commit"
+[main (root-commit) 9e55c9d] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+C:\Users\raul.rojas>git branch -M main
+
+C:\Users\raul.rojas>git remote add origin https://github.com/LedJim/LedJim.git
+
+C:\Users\raul.rojas>git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 225 bytes | 225.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/LedJim/LedJim.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+C:\Users\raul.rojas>
+C:\Users\raul.rojas>git log --oneline
+9e55c9d (HEAD -> main, origin/main) first commit
+
+C:\Users\raul.rojas>
+
+
